@@ -242,3 +242,38 @@ h1, h2, h3, h4, h5, h6 {
     margin: 30px auto;
 }
 
+.info_foto_1 {
+    width: 120px;
+    height: 120px;
+    background-image: url('Bxod.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.info_foto_2 {
+    width: 120px;
+    height: 120px;
+    background-image: url('Vibor.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.info_foto_3 {
+    width: 120px;
+    height: 120px;
+    background-image: url('ishi.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.info_foto_4 {
+    width: 120px;
+    height: 120px;
+    background-image: url('Add.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
