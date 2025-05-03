@@ -1,0 +1,72 @@
+[
+    {
+        "login": "kot@ya.ru",
+        "password": "0fabfa29eba61478b61fe5c5110670e97c6879508461401e05fde96c91fc08a1",
+        "genres": [],
+        "authors": [],
+        "rated_songs": [
+            {
+                "author": "",
+                "name": "",
+                "rate": 0,
+                "review": ""
+            }
+        ]
+    },
+    {
+        "login": "kot@sya.ru",
+        "password": "0fabfa29eba61478b61fe5c5110670e97c6879508461401e05fde96c91fc08a1",
+        "genres": [],
+        "authors": [],
+        "rated_songs": [
+            {
+                "author": "",
+                "name": "",
+                "rate": 0,
+                "review": ""
+            }
+        ]
+    },
+    {
+        "login": "koltltl",
+        "password": "1c62590c99871030411c60c4780da31ec05c4db349e2f02d79c01228fccd9380",
+        "genres": [],
+        "authors": [],
+        "rated_songs": [
+            {
+                "author": "",
+                "name": "",
+                "rate": 0,
+                "review": ""
+            }
+        ]
+    },
+    {
+        "login": "kasot@ya.ru",
+        "password": "0fabfa29eba61478b61fe5c5110670e97c6879508461401e05fde96c91fc08a1",
+        "genres": [],
+        "authors": [],
+        "rated_songs": [
+            {
+                "author": "",
+                "name": "",
+                "rate": 0,
+                "review": ""
+            }
+        ]
+    },
+    {
+        "login": "kaaat@ya.ru",
+        "password": "1c62590c99871030411c60c4780da31ec05c4db349e2f02d79c01228fccd9380",
+        "genres": [],
+        "authors": [],
+        "rated_songs": [
+            {
+                "author": "",
+                "name": "",
+                "rate": 0,
+                "review": ""
+            }
+        ]
+    }
+]

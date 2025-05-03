@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Slab:wght@700&family=Roboto:ital,wght@1,700&display=swap" rel="stylesheet">
+        <title>EchoFlow</title>
+    </head>
+    <body>
+    
+        <header class="header">
+            <div class="container">
+                <div class="header_inner">
+                    <div class="logo_wrapper">
+                        <div class="header_logo"></div>
+                        <span class="logo_text">EchoFlow</span>
+                    </div>
+    
+                    <nav class="nav">
+                        <a class="nav_link" href="/login">Вход</a>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <hr>
+        {% with messages = get_flashed_messages() %}
+            {% if messages %}
+                <ul>
+                    {% for message in messages %}
+                        <li>{{ message }}</li>
+                    {% endfor %}
+                </ul>
+            {% endif %}
+        {% endwith %}
+        {% block content %}{% endblock %}
+    </body>
+</html>
