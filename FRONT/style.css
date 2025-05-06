@@ -99,7 +99,7 @@ h1, h2, h3, h4, h5, h6 {
 .header_logo {
     width: 70px;
     height: 80px;
-    background-image: url('Photoroom.png');
+    background-image: url('images/logo.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -245,7 +245,7 @@ h1, h2, h3, h4, h5, h6 {
 .info_foto_1 {
     width: 120px;
     height: 120px;
-    background-image: url('Bxod.png');
+    background-image: url('images/join.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -254,7 +254,7 @@ h1, h2, h3, h4, h5, h6 {
 .info_foto_2 {
     width: 120px;
     height: 120px;
-    background-image: url('Vibor.png');
+    background-image: url('images/choice.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -263,7 +263,7 @@ h1, h2, h3, h4, h5, h6 {
 .info_foto_3 {
     width: 120px;
     height: 120px;
-    background-image: url('ishi.png');
+    background-image: url('images/search.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -272,8 +272,66 @@ h1, h2, h3, h4, h5, h6 {
 .info_foto_4 {
     width: 120px;
     height: 120px;
-    background-image: url('Add.png');
+    background-image: url('images/Add.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+}
+
+.login_box {
+    color: whitesmoke;
+    font-size: 20px;
+    width: 450px;
+    padding: 45px;
+    text-align: center;
+    border: 3px solid whitesmoke;
+    border-radius: 20px;
+    height: 500px;
+    margin: 0 auto;
+    background:rgba(178, 137, 198, 0.35)
+}
+
+.login_h1{
+    font-weight: 350;
+}
+
+.form-group {
+    margin-bottom: 1rem;
+}
+label {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: #ffffff;
+}
+input {
+    color:#2c2a2d;
+    width: 100%;
+    padding: 0.75rem;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 15px;
+    box-sizing: border-box;
+    background:rgba(217, 216, 226, 0.4)
+}
+button {
+    width: 100%;
+    margin-top: 1.2rem;
+    padding: 0.75rem;
+    background-color: #8a49bf;
+    color:aliceblue;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+button:hover {
+    background-color: #6c11b7;
+}
+.reg_href{
+    text-decoration: none;
+    color: #bd7cf3;
+}
+.error {
+    color: #dc3545;
+    margin-top: 0.5rem;
+    font-size: 0.875rem;
 }
