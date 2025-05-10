@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Slab:wght@700&family=Roboto:ital,wght@1,700&display=swap" rel="stylesheet">
+    <title>EchoFlow</title>
+</head>
+<body>
+    <div class="intro_register">
+        <header class="header">
+            <div class="container">
+                <div class="header_inner">
+                    <div class="logo_wrapper">
+                        <div class="header_logo"></div>
+                        <span class="logo_text">EchoFlow</span>
+                    </div>
+
+                    <nav class="nav">
+                        <a class="nav_link" href="#">Вход</a>
+                    </nav>
+                </div>
+            </div>
+        </header>
+
+        <header>
+            <div class="register_box">
+                <h1 class="register_h1">Регистрация</h1>
+                <form class="form_register">
+                    <form id="registerForm" action="/auth/register/" method="POST">
+                        <div class="form-group">
+                            <label for="email">Почта</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="password">Пароль (от 5 до 50 символов)</label>
+                            <input type="password" id="password" name="password" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone_number">Номер телефона (+79991234567)</label>
+                            <input type="phone_number" id="phone_number" name="phone_number" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="name">Имя (от 3 до 50 символов)</label>
+                            <input type="name" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="surname">Фамилия (от 3 до 50 символов)</label>
+                            <input type="surname" id="surname" name="surname" required>
+                        </div>
+                        <label>Выбери любимые жанры</label>
+                        <div class="options-list">
+                            <label class="option-item">
+                            <input type="checkbox" class="real-checkbox">
+                            <span class="custom-checkbox"></span>
+                            <span class="option-text">Поп</span>
+                            </label>
+                            
+                            <label class="option-item">
+                            <input type="checkbox" class="real-checkbox">
+                            <span class="custom-checkbox"></span>
+                            <span class="option-text">Хип-хоп</span>
+                            </label>
+
+                            <label class="option-item">
+                                <input type="checkbox" class="real-checkbox">
+                                <span class="custom-checkbox"></span>
+                                <span class="option-text">Рэп</span>
+                            </label>
+                            
+                            <label class="option-item">
+                                <input type="checkbox" class="real-checkbox">
+                                <span class="custom-checkbox"></span>
+                                <span class="option-text">Рок</span>
+                            </label>
+                            
+                            <label class="option-item">
+                                <input type="checkbox" class="real-checkbox">
+                                <span class="custom-checkbox"></span>
+                                <span class="option-text">R&B</span>
+                            </label>
+                            
+                            <label class="option-item">
+                                <input type="checkbox" class="real-checkbox">
+                                <span class="custom-checkbox"></span>
+                                <span class="option-text">Кантри</span>
+                            </label>
+
+                            <label class="option-item">
+                                <input type="checkbox" class="real-checkbox">
+                                <span class="custom-checkbox"></span>
+                                <span class="option-text">Метал</span>
+                            </label>
+                                
+                            <label class="option-item">
+                                <input type="checkbox" class="real-checkbox">
+                                <span class="custom-checkbox"></span>
+                                <span class="option-text">Инди</span>
+                            </label>
+
+                            <label class="option-item">
+                                <input type="checkbox" class="real-checkbox">
+                                <span class="custom-checkbox"></span>
+                                <span class="option-text">К-поп</span>
+                            </label>
+                            
+                            <label class="option-item">
+                                <input type="checkbox" class="real-checkbox">
+                                <span class="custom-checkbox"></span>
+                                <span class="option-text">Регги</span>
+                            </label>
+
+                            <label class="option-item">
+                                <input type="checkbox" class="real-checkbox">
+                                <span class="custom-checkbox"></span>
+                                <span class="option-text">Джаз</span>
+                            </label>
+                                
+                            <label class="option-item">
+                                <input type="checkbox" class="real-checkbox">
+                                <span class="custom-checkbox"></span>
+                                <span class="option-text">Блюз</span>
+                            </label>
+                            
+                            <label class="option-item">
+                                <input type="checkbox" class="real-checkbox">
+                                <span class="custom-checkbox"></span>
+                                <span class="option-text">Трэп</span>
+                            </label>
+                                
+                            <label class="option-item">
+                                <input type="checkbox" class="real-checkbox">
+                                <span class="custom-checkbox"></span>
+                                <span class="option-text">Дрилл</span>
+                            </label>
+    
+                            <label class="option-item">
+                                <input type="checkbox" class="real-checkbox">
+                                <span class="custom-checkbox"></span>
+                                <span class="option-text">Лоу_фай</span>
+                            </label>
+                                
+                            <label class="option-item">
+                                <input type="checkbox" class="real-checkbox">
+                                <span class="custom-checkbox"></span>
+                                <span class="option-text">Фанк</span>
+                            </label>
+
+                            <label class="option-item">
+                                <input type="checkbox" class="real-checkbox">
+                                <span class="custom-checkbox"></span>
+                                <span class="option-text">Класическая</span>
+                            </label>
+    
+                            <label class="option-item">
+                                <input type="checkbox" class="real-checkbox">
+                                <span class="custom-checkbox"></span>
+                                <span class="option-text">Латинская</span>
+                            </label>
+                                
+                            <label class="option-item">
+                                <input type="checkbox" class="real-checkbox">
+                                <span class="custom-checkbox"></span>
+                                <span class="option-text">Электронная</span>
+                            </label>
+
+                            <label class="option-item">
+                                <input type="checkbox" class="real-checkbox">
+                                <span class="custom-checkbox"></span>
+                                <span class="option-text">Хип-хаус</span>
+                            </label>
+                        </div>
+                        
+                        <button type="submit">Зарегистрироваться</button>
+                        <div id="errorMessage" class="error"></div>
+                        <div class="register-link">
+                            Уже есть аккаунт? <a class="reg_href" href="/auth/login/">Войти</a>
+                        </div>
+                    </form>
+                </form>
+            </div>
+        </header>
+    </div>
+
+</body>

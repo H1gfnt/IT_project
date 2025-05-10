@@ -305,7 +305,7 @@ label {
 }
 input {
     color:#2c2a2d;
-    width: 100%;
+    width: 350px;
     padding: 0.75rem;
     border: 2px solid rgb(255, 255, 255);
     border-radius: 15px;
@@ -335,3 +335,65 @@ button:hover {
     margin-top: 0.5rem;
     font-size: 0.875rem;
 }
+
+.intro_register {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 160vh;
+
+    background: linear-gradient(rgb(41, 4, 18), rgb(110, 61, 144))
+}
+
+.register_box {
+    color: whitesmoke;
+    font-size: 20px;
+    width: 600px;
+    padding: 45px;
+    text-align: center;
+    border: 3px solid whitesmoke;
+    border-radius: 20px;
+    height: 1050px;
+    margin: 0 auto;
+    background:rgba(178, 137, 198, 0.35)
+}
+
+.register_h1{
+    font-weight: 350;
+}
+
+.options-list {
+    display: flex; 
+    max-width: 500px;  
+    justify-content: space-between;    
+    flex-direction: row; 
+    flex-wrap: wrap;     
+    gap: 15px;           
+    align-items: center; 
+}
+  
+.option-item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+    white-space: nowrap; 
+}
+  
+.real-checkbox {
+    display: none;
+}
+  
+.custom-checkbox {
+    width: 20px;
+    height: 20px;
+    border: 2px solid #ffffff;
+    border-radius: 50%;
+    transition: all 0.3s;
+}
+  
+.real-checkbox:checked + .custom-checkbox {
+    background-color: #bd7cf3;
+}
+  
