@@ -1,0 +1,14 @@
+from fastapi import FastAPI
+from fastapi.templating import Jinja2Templates
+from fastapi.staticfiles import StaticFiles
+from backend.src.adapters.entrypoints.api.routers import api_router
+from backend.src.configurator.config import settings
+from pathlib import Path
+
+app = FastAPI(title=settings.PROJECT_NAME, version=settings.PROJECT_VERSION)
+static_path = Path(__file__).parent / "adapters" / "entrypoints" / "static"
+
+app.include_router(api_router, prefix='/api/v1')
+app.mount("/static", StaticFiles(directory=str(static_path)), name="static")
+
+templates = Jinja2Templates(directory="/app/backend/src/adapters/entrypoints/templates")
